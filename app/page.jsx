@@ -27,7 +27,7 @@ export default function Home() {
           <MissionVision />
           <Stats />
           <Projects />
-          <Events />
+          {/* <Events /> */}
           <Contact />
           <Footer />
         </main>

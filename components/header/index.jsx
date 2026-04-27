@@ -68,9 +68,9 @@ export default function Header() {
       >
         <div className="container mx-auto px-6 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+902121234567" className="flex items-center gap-2 hover:text-accent transition-colors">
+            <a href="tel:+905523833494" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone size={14} />
-              <span>+90 (212) 123 45 67</span>
+              <span>+90 (552) 383 3494</span>
             </a>
             <a href="mailto:info@ravelyapi.com" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Mail size={14} />
@@ -230,9 +230,9 @@ export default function Header() {
 
                 {/* Mobile Contact Info */}
                 <div className="mt-4 pt-4 border-t border-border space-y-3">
-                  <a href="tel:+902121234567" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-accent transition-colors">
+                  <a href="tel:+905523833494" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-accent transition-colors">
                     <Phone size={16} />
-                    <span>+90 (212) 123 45 67</span>
+                    <span>+90 (552) 383 3494</span>
                   </a>
                   <a href="mailto:info@ravelyapi.com" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-accent transition-colors">
                     <Mail size={16} />

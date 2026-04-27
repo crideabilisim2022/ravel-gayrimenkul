@@ -102,9 +102,9 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-3">
-              <a href="tel:+902121234567" className="flex items-center gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors">
+              <a href="tel:+905523833494" className="flex items-center gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors">
                 <Phone size={16} />
-                +90 (212) 123 45 67
+                +90 (552) 383 3494
               </a>
               <a href="mailto:info@ravelyapi.com" className="flex items-center gap-3 text-sm text-primary-foreground/80 hover:text-accent transition-colors">
                 <Mail size={16} />
@@ -112,7 +112,7 @@ export default function Footer() {
               </a>
               <div className="flex items-start gap-3 text-sm text-primary-foreground/80">
                 <MapPin size={16} className="flex-shrink-0 mt-0.5" />
-                <span>Levent Mah. Cevahir Plaza Kat:15, Beşiktaş/İstanbul</span>
+                <span>Kavaklı, Bağlar Cad. No:18, 34520 Beylikdüzü/İstanbul</span>
               </div>
             </div>
           </div>

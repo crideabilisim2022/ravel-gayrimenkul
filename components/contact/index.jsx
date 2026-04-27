@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Telefon',
-    content: '+90 (212) 123 45 67',
-    link: 'tel:+902121234567',
+    content: '+90 (552) 383 3494',
+    link: 'tel:+905523833494',
   },
   {
     icon: Mail,
@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Adres',
-    content: 'Levent Mahallesi, Cevahir Plaza Kat:15, Beşiktaş/İstanbul',
+    content: 'Kavaklı, Bağlar Cad. No:18, 34520 Beylikdüzü/İstanbul',
     link: 'https://maps.google.com',
   },
   {
@@ -161,30 +161,26 @@ export default function Contact() {
             ))}
 
             {/* Map Preview */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.7 }}
-              className="bg-card rounded-xl overflow-hidden shadow-md border border-border"
-            >
-              <div className="aspect-[4/3] bg-muted relative">
-                {/* Placeholder for map - you can integrate Google Maps or similar */}
-                <div className="absolute inset-0 flex items-center justify-center bg-primary/5">
-                  <div className="text-center">
-                    <MapPin className="w-12 h-12 text-accent mx-auto mb-2" />
-                    <p className="text-muted-foreground text-sm">Harita Görünümü</p>
-                    <a 
-                      href="https://maps.google.com" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-accent text-sm font-medium hover:underline"
-                    >
-                      Google Maps&apos;te Aç
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
+           {/* Map Preview */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={isInView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.5, delay: 0.7 }}
+  className="bg-card rounded-xl overflow-hidden shadow-md border border-border"
+>
+  <div className="aspect-[4/3] bg-muted relative">
+    
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.55867841104!2d28.64005019999999!3d40.98005599999998!2m3!1f0!2f0!3f0!m3!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55fd9d066d0a7%3A0xd30a736e200d4c6a!2zUkFWRUwgWUFQSSBHWU8gR2F5cmltZW5rdWwgWWFwxLEgT3J0YWtsxLHEn8Sx!5e1!3m2!1str!2str!4v1777288600786!5m2!1str!2str"
+      className="absolute inset-0 w-full h-full"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+      referrerPolicy="no-referrer-when-downgrade"
+    />
+
+  </div>
+</motion.div>
           </motion.div>
 
           {/* Contact Form */}
