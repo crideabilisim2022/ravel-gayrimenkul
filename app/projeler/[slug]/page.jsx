@@ -38,7 +38,7 @@ const projectsData = {
     units: '120 Daire',
     area: '85-250 m²',
     year: '2024',
-    price: '₺2.500.000',
+   
     description: 'İstanbul\'un en prestijli lokasyonlarından Levent\'te yükselen RAVEL Residence, modern mimari anlayışı ve üstün yaşam standartlarıyla fark yaratıyor. 120 daireden oluşan proje, 1+1\'den 4+1\'e kadar farklı daire seçenekleri sunuyor.',
     longDescription: 'RAVEL Residence, şehrin kalbinde doğayla iç içe bir yaşam sunuyor. Proje, A+ enerji sınıfı belgesi, depreme dayanıklı yapı teknolojisi ve akıllı ev sistemleriyle donatılmış. Sosyal tesisleri arasında açık ve kapalı yüzme havuzu, fitness merkezi, spa, çocuk oyun alanları ve yeşil yaşam alanları bulunuyor.',
     features: [
@@ -50,19 +50,19 @@ const projectsData = {
       { icon: Building2, text: 'A+ Enerji Sınıfı' },
     ],
     floorPlans: [
-      { type: '1+1', area: '85 m²', price: '₺2.500.000' },
-      { type: '2+1', area: '120 m²', price: '₺3.800.000' },
-      { type: '3+1', area: '180 m²', price: '₺5.500.000' },
-      { type: '4+1', area: '250 m²', price: '₺8.000.000' },
+      { type: '1+1', area: '85 m²', },
+      { type: '2+1', area: '120 m²',  },
+      { type: '3+1', area: '180 m²',  },
+      { type: '4+1', area: '250 m²',  },
     ],
     gallery: [
-      '/images/projects/project-1.jpg',
-      '/images/projects/project-1-2.jpg',
-      '/images/projects/project-1-3.jpg',
-      '/images/projects/project-1-4.jpg',
-      '/images/projects/project-1-5.jpg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
     ],
-    heroImage: '/images/projects/project-1.jpg',
+    heroImage: '/img/projects/1.png',
   },
   'ravel-plaza': {
     id: 2,
@@ -73,7 +73,7 @@ const projectsData = {
     units: '45 Ofis',
     area: '100-500 m²',
     year: '2023',
-    price: '₺5.000.000',
+    
     description: 'Maslak\'ın yükselen iş merkezi RAVEL Plaza, modern ofis alanları ve premium hizmetleriyle işletmelere üstün bir çalışma ortamı sunuyor.',
     longDescription: 'RAVEL Plaza, Türkiye\'nin finans ve iş merkezi Maslak\'ta konumlanmış A sınıfı ofis projesidir. Sürdürülebilir tasarımı, LEED Gold sertifikası ve akıllı bina teknolojileriyle öne çıkan proje, işletmelere prestijli bir adres sunuyor.',
     features: [
@@ -83,16 +83,18 @@ const projectsData = {
       { icon: Building2, text: 'LEED Gold' },
     ],
     floorPlans: [
-      { type: 'Küçük Ofis', area: '100 m²', price: '₺5.000.000' },
-      { type: 'Orta Ofis', area: '250 m²', price: '₺12.000.000' },
-      { type: 'Büyük Ofis', area: '500 m²', price: '₺22.000.000' },
+      { type: 'Küçük Ofis', area: '100 m²',},
+      { type: 'Orta Ofis', area: '250 m²',  },
+      { type: 'Büyük Ofis', area: '500 m²', },
     ],
-    gallery: [
-      '/images/projects/project-2.jpg',
-      '/images/projects/project-2-2.jpg',
-      '/images/projects/project-2-3.jpg',
+     gallery: [
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
     ],
-    heroImage: '/images/projects/project-2.jpg',
+    heroImage: '/img/projects/2.png',
   },
   'ravel-park': {
     id: 3,
@@ -103,7 +105,7 @@ const projectsData = {
     units: '200 Daire + 30 Dükkan',
     area: '65-180 m²',
     year: '2025',
-    price: '₺1.800.000',
+   
     description: 'Kadıköy\'ün kalbinde yükselen RAVEL Park, karma kullanım konseptiyle yaşam ve ticaretin kesişim noktasında yer alıyor.',
     longDescription: 'RAVEL Park, 200 konut ve 30 ticari üniteden oluşan karma kullanımlı projedir. Proje, bölgenin dönüşümüne öncülük ederek modern bir yaşam alanı sunmaktadır.',
     features: [
@@ -113,17 +115,19 @@ const projectsData = {
       { icon: Building2, text: 'A Enerji Sınıfı' },
     ],
     floorPlans: [
-      { type: '1+1', area: '65 m²', price: '₺1.800.000' },
-      { type: '2+1', area: '100 m²', price: '₺2.800.000' },
-      { type: '3+1', area: '140 m²', price: '₺4.200.000' },
-      { type: '4+1', area: '180 m²', price: '₺5.500.000' },
+      { type: '1+1', area: '65 m²', },
+      { type: '2+1', area: '100 m²',  },
+      { type: '3+1', area: '140 m²',  },
+      { type: '4+1', area: '180 m²',  },
     ],
-    gallery: [
-      '/images/projects/project-3.jpg',
-      '/images/projects/project-3-2.jpg',
-      '/images/projects/project-3-3.jpg',
+     gallery: [
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
     ],
-    heroImage: '/images/projects/project-3.jpg',
+    heroImage: '/img/projects/3.png',
   },
   'ravel-tower': {
     id: 4,
@@ -134,7 +138,7 @@ const projectsData = {
     units: '85 Daire',
     area: '120-350 m²',
     year: '2024',
-    price: '₺6.500.000',
+   
     description: 'Boğaz manzaralı lüks yaşamın adresi RAVEL Tower, Beşiktaş\'ın en prestijli noktasında yükseliyor.',
     longDescription: 'RAVEL Tower, 35 katlık yapısıyla Boğaz manzarasını ayaklarınızın altına seriyor. Her dairede panoramik manzara, özel asansör ve concierge hizmeti sunuluyor.',
     features: [
@@ -144,17 +148,19 @@ const projectsData = {
       { icon: Dumbbell, text: 'Spa & Fitness' },
     ],
     floorPlans: [
-      { type: '2+1', area: '120 m²', price: '₺6.500.000' },
-      { type: '3+1', area: '200 m²', price: '₺12.000.000' },
-      { type: '4+1', area: '280 m²', price: '₺18.000.000' },
-      { type: 'Penthouse', area: '350 m²', price: '₺35.000.000' },
+      { type: '2+1', area: '120 m²',  },
+      { type: '3+1', area: '200 m²',  },
+      { type: '4+1', area: '280 m²',  },
+      { type: 'Penthouse', area: '350 m²',  },
     ],
     gallery: [
-      '/images/projects/project-4.jpg',
-      '/images/projects/project-4-2.jpg',
-      '/images/projects/project-4-3.jpg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
     ],
-    heroImage: '/images/projects/project-4.jpg',
+    heroImage: '/img/projects/1.png',
   },
   'ravel-business-center': {
     id: 5,
@@ -165,7 +171,7 @@ const projectsData = {
     units: '60 Ofis',
     area: '80-400 m²',
     year: '2022',
-    price: '₺4.000.000',
+   
     description: 'Ataşehir Finans Merkezi\'nde konumlanan RAVEL Business Center, işletmelere A sınıfı ofis deneyimi sunuyor.',
     longDescription: 'RAVEL Business Center, İstanbul\'un yeni finans merkezi Ataşehir\'de yer alan prestijli ofis projesidir. Metro bağlantısı ve merkezi konumuyla dikkat çeken proje, BREEAM sertifikalıdır.',
     features: [
@@ -175,16 +181,16 @@ const projectsData = {
       { icon: Building2, text: 'BREEAM Sertifikalı' },
     ],
     floorPlans: [
-      { type: 'Küçük Ofis', area: '80 m²', price: '₺4.000.000' },
-      { type: 'Orta Ofis', area: '200 m²', price: '₺9.000.000' },
-      { type: 'Büyük Ofis', area: '400 m²', price: '₺17.000.000' },
+      { type: 'Küçük Ofis', area: '80 m²', },
+      { type: 'Orta Ofis', area: '200 m²', },
+      { type: 'Büyük Ofis', area: '400 m²', },
     ],
     gallery: [
-      '/images/projects/project-5.jpg',
-      '/images/projects/project-5-2.jpg',
-      '/images/projects/project-5-3.jpg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
     ],
-    heroImage: '/images/projects/project-5.jpg',
+    heroImage: '/img/projects/2.png',
   },
   'ravel-garden': {
     id: 6,
@@ -195,7 +201,7 @@ const projectsData = {
     units: '250 Villa',
     area: '180-400 m²',
     year: '2024',
-    price: '₺8.500.000',
+ 
     description: 'Bahçeşehir\'de doğayla iç içe villa yaşamı sunan RAVEL Garden, ailelere geniş ve ferah yaşam alanları sunuyor.',
     longDescription: 'RAVEL Garden, 250 villadan oluşan site konseptiyle Bahçeşehir\'de benzersiz bir yaşam alanı yaratıyor. Her villa özel bahçe, otopark ve akıllı ev sistemiyle donatılmıştır.',
     features: [
@@ -206,17 +212,17 @@ const projectsData = {
       { icon: Dumbbell, text: 'Spor Tesisleri' },
     ],
     floorPlans: [
-      { type: '3+1 Villa', area: '180 m²', price: '₺8.500.000' },
-      { type: '4+1 Villa', area: '250 m²', price: '₺12.000.000' },
-      { type: '5+1 Villa', area: '320 m²', price: '₺16.000.000' },
-      { type: '6+1 Villa', area: '400 m²', price: '₺22.000.000' },
+      { type: '3+1 Villa', area: '180 m²', },
+      { type: '4+1 Villa', area: '250 m²', },
+      { type: '5+1 Villa', area: '320 m²', },
+      { type: '6+1 Villa', area: '400 m²', },
     ],
     gallery: [
-      '/images/projects/project-6.jpg',
-      '/images/projects/project-6-2.jpg',
-      '/images/projects/project-6-3.jpg',
+      '/placeholder.svg',
+      '/placeholder.svg',
+      '/placeholder.svg',
     ],
-    heroImage: '/images/projects/project-6.jpg',
+    heroImage: '/img/projects/3.png',
   },
 }
 
@@ -434,7 +440,7 @@ export default function ProjectDetail() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h2 className="text-2xl font-serif font-bold text-foreground mb-6">Kat Planları ve Fiyatlar</h2>
+                    <h2 className="text-2xl font-serif font-bold text-foreground mb-6">Kat Planları</h2>
                     <div className="space-y-4">
                       {project.floorPlans.map((plan, index) => (
                         <motion.div
@@ -455,8 +461,8 @@ export default function ProjectDetail() {
                           </div>
                           <div className="flex items-center gap-4">
                             <div className="text-right">
-                              <p className="text-sm text-muted-foreground">Başlangıç Fiyatı</p>
-                              <p className="text-xl font-bold text-accent">{plan.price}</p>
+                           
+                             
                             </div>
                             <button className="px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors">
                               İncele
@@ -474,8 +480,8 @@ export default function ProjectDetail() {
                 <div className="sticky top-24 space-y-6">
                   {/* Price Card */}
                   <div className="bg-card border border-border rounded-xl p-6 shadow-lg">
-                    <p className="text-sm text-muted-foreground mb-1">Başlangıç Fiyatı</p>
-                    <p className="text-3xl font-bold text-accent mb-6">{project.price}</p>
+                   
+                   
                     
                     <div className="space-y-3 mb-6">
                       <motion.button

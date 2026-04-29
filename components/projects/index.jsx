@@ -24,7 +24,7 @@ const projects = [
     units: '120 Daire',
     area: '85-250 m²',
     year: '2024',
-    image: '/images/projects/project-1.jpg',
+    image: '/img/projects/1.png',
     featured: true,
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     units: '45 Ofis',
     area: '100-500 m²',
     year: '2023',
-    image: '/images/projects/project-2.jpg',
+    image: '/img/projects/2.png',
     featured: false,
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     units: '200 Daire + 30 Dükkan',
     area: '65-180 m²',
     year: '2025',
-    image: '/images/projects/project-3.jpg',
+    image: '/img/projects/3.png',
     featured: false,
   },
   {
@@ -63,7 +63,7 @@ const projects = [
     units: '85 Daire',
     area: '120-350 m²',
     year: '2024',
-    image: '/images/projects/project-4.jpg',
+    image: '/img/projects/1.png',
     featured: true,
   },
   {
@@ -76,7 +76,7 @@ const projects = [
     units: '60 Ofis',
     area: '80-400 m²',
     year: '2022',
-    image: '/images/projects/project-5.jpg',
+    image: '/img/projects/2.png',
     featured: false,
   },
   {
@@ -89,7 +89,7 @@ const projects = [
     units: '250 Villa',
     area: '180-400 m²',
     year: '2024',
-    image: '/images/projects/project-6.jpg',
+    image: '/img/projects/3.png',
     featured: true,
   },
 ]

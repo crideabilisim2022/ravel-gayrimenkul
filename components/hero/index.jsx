@@ -27,7 +27,7 @@ export default function Hero() {
         {/* Image placeholder - replace src with your image */}
         <div className="absolute inset-0 bg-primary">
           <Image
-            src="/images/hero-bg.jpg"
+            src="/img/hero/1.png"
             alt="RAVEL YAPI modern mimari projesi"
             fill
             className="object-cover opacity-40"
@@ -127,7 +127,7 @@ export default function Hero() {
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-4">
                   {/* Image placeholder */}
                   <Image
-                    src="/images/featured-project.jpg"
+                    src="/img/hero/1.png"
                     alt="Öne çıkan proje"
                     fill
                     className="object-cover"
@@ -148,8 +148,8 @@ export default function Hero() {
                 </p>
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-accent text-sm">Başlangıç Fiyatı</p>
-                    <p className="text-primary-foreground font-bold">₺2.500.000</p>
+                   
+                   
                   </div>
                   <motion.a
                     href="/projeler/ravel-residence"

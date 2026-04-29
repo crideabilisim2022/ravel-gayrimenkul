@@ -44,7 +44,7 @@ export default function About() {
               {/* Main Image */}
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/about-main.jpg"
+                  src="/img/hero/1.png"
                   alt="RAVEL YAPI ofis binası"
                   fill
                   className="object-cover"
@@ -61,7 +61,8 @@ export default function About() {
               >
                 <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl border-4 border-background">
                   <Image
-                    src="/images/about-team.jpg"
+                                     src="/img/hero/1.png"
+
                     alt="RAVEL YAPI ekibi"
                     fill
                     className="object-cover"
